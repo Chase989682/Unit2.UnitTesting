@@ -1,4 +1,4 @@
-# Unit2.block17Testing 
+# Unit2.block18Testing 
 **A function called "multiplication" that returns the product of the two input numbers.
 
 A function called "concatOdds" takes two arrays of integers as arguments. It should return a single array that only contains the odd numbers, in ascending order, from both of the arrays.
