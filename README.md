@@ -11,6 +11,17 @@ What should happen when there are multiples of the same odd number in the arrays
 
 -function - multiplication: create a function that takes the parameters of x and y and return x * y. 
 -call function - create a variable and call that function with any numbers as the parameters to test the function.  Or you can console log the function with your own numbers as parameters.
--function - create a user prompt that asks the user to enter 2 numbers separated by a space.
--
+-function - create a user prompt that asks the user to enter 2 numbers separated by a space.  Create a split with a variable and return the 2 strings as numbers.
+when the user enters 2 numbers, the output will be the product of the 2 numbers.
+when the user only enters 1 number or anything that is not a number, the prompt will return an error message.
 
+-function: odds -a function is created to return the odds of an array.  When the array contains non numerical elements, those elements should be excluded from the returned odds array.  When the array contains duplicate odd numbers, it will return all the odds including each iteration of a duplicate.  When the array contains negative odd numbers, it will return those numbers.  When the array contains no odd numbers, it will return null
+
+**A shopping cart checkout feature that allows a user to check out as a guest (without an account), or as a logged-in user. They should be allowed to do either, but should be asked if they want to create an account or log in if they check out as a guest.
+Think about the following; you may need to make assumptions or decisions about the prompt and how the feature should behave:
+What should happen if the cart is empty?
+What needs to be shown to the user at each step of check out?
+What behaviors of this feature does the prompt miss or gloss over?
+Hint: Observe the shopping cart and checkout features of some popular websites to get some ideas!
+- Functionality tests
+- 
