@@ -22,6 +22,8 @@ Think about the following; you may need to make assumptions or decisions about t
 What should happen if the cart is empty?
 What needs to be shown to the user at each step of check out?
 What behaviors of this feature does the prompt miss or gloss over?
-Hint: Observe the shopping cart and checkout features of some popular websites to get some ideas!
-- Functionality tests
+Hint: Observe the shopping cart and checkout features of some popular websites to get some ideas!**
+- Functionality tests - when the user clicks the checkout option, it takes them to a page where they have 2 options: checkout as guest, or log in and checkout.  If the user is already logged in, the user is directed to the shipping address section.  If the user is not logged in, they must select either option and it will direct them contingent upon which option they selected.  If the logged in user has shipping information in their profile, the page will autofill and have the user confirm the information.  The page should also give them an option to use a different shipping address.  If incorrect data is entered such as an invalid zip code, the page will return an error message.  If correct data is entered, the user will be directed to the billing page.  The same process is done with this page.
+
+- 
 - 
